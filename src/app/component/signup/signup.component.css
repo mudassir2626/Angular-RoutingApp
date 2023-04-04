@@ -1,0 +1,22 @@
+.SignFormMain {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 460px;
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(219, 219, 219);
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .form-group{
+    width: 100%;
+  }
+  .btn-primary {
+    width: 100%;
+    background-color: rgb(106, 106, 232);
+  }
+  a{
+    color: rgba(35, 29, 29, 0.621);
+    margin-left :73%
+  }

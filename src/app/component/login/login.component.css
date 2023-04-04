@@ -1,0 +1,29 @@
+
+.LoginFormMain {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin: auto;
+  width: 30%;
+  background-color: rgb(237, 237, 237);
+  padding: 20px;
+  box-shadow: 10px 10px 10px rgb(219, 219, 219);
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: rgb(106, 106, 232);
+}
+.textregisterLink>a{
+   margin-left :70%
+}
+a{
+    color: rgba(35, 29, 29, 0.621);
+  }
+.btn-primary > a
+{
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: solid;
+}
