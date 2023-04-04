@@ -6,7 +6,7 @@ import { ContactusComponent } from '../components/contactus/contactus.component'
 
 const routes: Routes = [
   {path:'',component:AdminDashboardComponent,
-  children:[
+   children:[
   {path:'home',component:HomeComponent},
   {path:'contactus',component:ContactusComponent},
   {path:'',redirectTo:'/admin/home',pathMatch:'full'}
