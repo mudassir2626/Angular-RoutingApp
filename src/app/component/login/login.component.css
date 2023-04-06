@@ -1,19 +1,34 @@
 
+
+body{
+  background: rgb(64,89,173) !important;
+  background: linear-gradient(0deg, rgba(64,89,173,1) 0%, rgba(19,168,138,1) 100%) !important;
+}
+input{
+  background-color: aliceblue;
+}
 .LoginFormMain {
   margin-top: 10px;
   margin-bottom: 20px;
   margin: auto;
   width: 30%;
-  background-color: rgb(237, 237, 237);
+ /* // background-color: rgb(237, 237, 237); */
   padding: 20px;
   box-shadow: 10px 10px 10px rgb(219, 219, 219);
   margin-top: 10%;
   border-radius: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .btn-primary{
     width: 100%;
-    background-color: rgb(106, 106, 232);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 32, 60);
 }
 .textregisterLink>a{
    margin-left :70%
@@ -23,7 +38,7 @@ a{
   }
 .btn-primary > a
 {
-    color: aliceblue;
+    color: rgb(0, 41, 78);
     font-style: normal;
     text-decoration: solid;
 }
